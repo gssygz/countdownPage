@@ -1,5 +1,5 @@
 //设置倒计时到期时间
-let endDate = new Date("Jan 25, 2020 00:00:00").getTime()
+let endDate = new Date("Jan 1, 2060 00:00:00").getTime()
 
 //设置定时器一秒一动
 let timer = setInterval(tick, 1000)
