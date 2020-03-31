@@ -31,7 +31,7 @@ function tick() {
         if (secs < 10) { secs = '0' + secs }
 
         //生成时间字符串
-        let time = `${days}天 : ${hours}时 : ${mins}分 : ${secs}秒`
+        let time = `${days}天 : ${hours} : ${mins} : ${secs}`
 
         //将时间附到html上去
         document.querySelector('.countdown').innerHTML = time
